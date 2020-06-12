@@ -26,7 +26,7 @@ const Navbar = (props) => {
             <Container>
                 <h3 className="title">PixiJS TextStyle
                     <div onClick={refreshPage} className="refreshBtn">
-                        <i className="uil uil-refresh"></i>
+                        <i className="uil uil-sync"></i>
                     </div>
                 </h3>
 

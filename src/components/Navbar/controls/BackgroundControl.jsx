@@ -24,6 +24,7 @@ const BackgroundControl = ({backgroundColor, updateStyle, addBackgroundImage, up
     };
     const removeBackgroundPhoto = (e) => {
         updateSetting(e.currentTarget.id, '');
+        updateSetting('moveCanvas', true);
     };
 
     const onBgSizeChange = (e) => {
