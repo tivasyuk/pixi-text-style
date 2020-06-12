@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/pixi-text-style/static/css/main.cda5923e.chunk.css",
-    "main.js": "/pixi-text-style/static/js/main.ff5159a2.chunk.js",
-    "main.js.map": "/pixi-text-style/static/js/main.ff5159a2.chunk.js.map",
+    "main.js": "/pixi-text-style/static/js/main.b95a102b.chunk.js",
+    "main.js.map": "/pixi-text-style/static/js/main.b95a102b.chunk.js.map",
     "runtime-main.js": "/pixi-text-style/static/js/runtime-main.0d2e34d0.js",
     "runtime-main.js.map": "/pixi-text-style/static/js/runtime-main.0d2e34d0.js.map",
     "static/js/2.040ccbe9.chunk.js": "/pixi-text-style/static/js/2.040ccbe9.chunk.js",
     "static/js/2.040ccbe9.chunk.js.map": "/pixi-text-style/static/js/2.040ccbe9.chunk.js.map",
     "index.html": "/pixi-text-style/index.html",
-    "precache-manifest.7674724369bcb386e54cd9dd76c3a72b.js": "/pixi-text-style/precache-manifest.7674724369bcb386e54cd9dd76c3a72b.js",
+    "precache-manifest.2ba62168aab1ccd92f5f549734e89ced.js": "/pixi-text-style/precache-manifest.2ba62168aab1ccd92f5f549734e89ced.js",
     "service-worker.js": "/pixi-text-style/service-worker.js",
     "static/css/main.cda5923e.chunk.css.map": "/pixi-text-style/static/css/main.cda5923e.chunk.css.map",
     "static/js/2.040ccbe9.chunk.js.LICENSE.txt": "/pixi-text-style/static/js/2.040ccbe9.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.0d2e34d0.js",
     "static/js/2.040ccbe9.chunk.js",
     "static/css/main.cda5923e.chunk.css",
-    "static/js/main.ff5159a2.chunk.js"
+    "static/js/main.b95a102b.chunk.js"
   ]
 }
