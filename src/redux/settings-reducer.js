@@ -10,6 +10,7 @@ let initialState = {
     navOpen: true,
     navPosition: MENU_RIGHT,
     themeColor: THEME_DARK,
+    catLoverTheme: false,
 
     bgImage: '',
     bgPosX: 0,

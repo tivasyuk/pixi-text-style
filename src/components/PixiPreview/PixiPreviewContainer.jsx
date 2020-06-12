@@ -9,8 +9,7 @@ import {updateSetting} from "../../redux/settings-reducer";
 class PixiPreviewContainer extends React.Component {
 
     state = {
-        height: 400,
-        // moveCanvas: false
+        height: 400
     };
 
     componentWillMount() {
@@ -76,10 +75,6 @@ class PixiPreviewContainer extends React.Component {
         let width;
         let height;
 
-        // this.setState({
-        //     moveCanvas: true
-        // });
-
         document.addEventListener('mousemove', (e) => {
             if (canMove) {
 
@@ -105,9 +100,6 @@ class PixiPreviewContainer extends React.Component {
 
         document.addEventListener('mouseup', (e) => {
             canMove = false;
-            // this.setState({
-            //     moveCanvas: false
-            // });
         }, false);
     };
 
@@ -128,7 +120,7 @@ class PixiPreviewContainer extends React.Component {
     render() {
 
         return (
-            <div className={`canvasContainer`} id={"canvasContainer"} //${this.state.moveCanvas ? "mouseMove" : ""}
+            <div className={`canvasContainer`} id={"canvasContainer"}
                  style={{
                      backgroundColor: this.props.styles.backgroundColor,
                      backgroundImage: `url(${this.props.settings.bgImage})`,

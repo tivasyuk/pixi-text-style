@@ -151,5 +151,13 @@ $formControlColor: #fff;
       }
     }
   }
+  .catLover-checkbox {
+    &:not(:checked) + label:before {
+      background-image: url("../img/cat_white.png");
+    }
+    &:checked + label:before {
+      background-image: url("../img/cat_pink.png");
+    }
+  }
 
 }

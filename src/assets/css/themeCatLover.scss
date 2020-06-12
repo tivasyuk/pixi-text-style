@@ -1,0 +1,43 @@
+$cursor: url("../img/cursor.png"), auto;
+
+.catLover {
+
+  .canvasContainer,
+  .menuPosition,
+  .menuToggle {
+    cursor: $cursor;
+  }
+
+  .checkbox,
+  .catLover-checkbox {
+    &:checked + label,
+    &:not(:checked) + label {
+      cursor: $cursor;
+
+      &:before {
+        cursor: $cursor;
+      }
+    }
+  }
+
+  .checkbox-tools {
+    &:checked + label{
+      cursor: default;
+    }
+
+    &:not(:checked) + label {
+      cursor: $cursor;
+    }
+  }
+
+  .refreshBtn,
+  .accordion,
+  button,
+  input[type="file"],
+  input[type="color"],
+  .btn:not(:disabled):not(.disabled) {
+    cursor: $cursor;
+  }
+
+
+}

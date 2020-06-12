@@ -230,10 +230,6 @@ body {
   background-repeat: no-repeat;
   max-height: 50vh;
   overflow: hidden;
-
-  &.mouseMove {
-    cursor: grabbing !important;
-  }
 }
 
 .resizeArea {

@@ -3,6 +3,7 @@ import ThemeSwitch from "./ThemeSwitch";
 import {compose} from "redux";
 import Dimensions from 'react-dimensions'
 import NavToggle from "./NavToggle";
+import CatThemeSwitch from "./CatThemeSwitch";
 
 const NavSettings = (props) => {
     let [openValue, setNavOpen] = useState(props.settings.navOpen);

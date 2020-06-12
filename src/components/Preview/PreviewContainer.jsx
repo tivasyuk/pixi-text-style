@@ -4,6 +4,7 @@ import JsonViewerContainer from "../JsonViewer/JsonViewerContainer";
 import PixiPreviewContainer from "../PixiPreview/PixiPreviewContainer";
 import CheckMoveContainer from "../Navbar/settings/CheckMoveContainer";
 import {updateSetting} from "../../redux/settings-reducer";
+import CatThemeSwitch from "../Navbar/settings/CatThemeSwitch";
 
 class PreviewContainer extends React.Component {
 
@@ -12,7 +13,9 @@ class PreviewContainer extends React.Component {
             <div className={`appWrapper ${this.props.settings.navOpen ? "menuOpen" : "menuClose"}`}>
                 <div className={"col-sm-12"} id={"previewContainer"}>
                     <div className={"previewTopLine"}>
-                        <h3 className={"previewTitle"}>Preview</h3>
+                        <h3 className={"previewTitle"}>Preview
+                            <CatThemeSwitch settings={this.props.settings} updateSetting={this.props.updateSetting} />
+                        </h3>
                         { !! this.props.settings.bgImage &&
                             <CheckMoveContainer settings={this.props.settings} updateSetting={this.props.updateSetting} />
                         }

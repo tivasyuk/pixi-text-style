@@ -148,6 +148,14 @@ $formControlBorder: #d8d8d8;
       }
     }
   }
+  .catLover-checkbox {
+    &:not(:checked) + label:before {
+      background-image: url("../img/cat_black.png");
+    }
+    &:checked + label:before {
+      background-image: url("../img/cat_pink.png");
+    }
+  }
 
 
 }
