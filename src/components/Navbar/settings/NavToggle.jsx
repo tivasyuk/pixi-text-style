@@ -22,7 +22,7 @@ const NavToggle = ({settings, updateSetting}) => {
             <div className={`icon menuPosition ${positionValue}`} onClick={changeMenuPosition}>
                 <span></span>
                 <span></span>
-                <span></span>
+                {/*<span></span>*/}
             </div>
         </div>
     )

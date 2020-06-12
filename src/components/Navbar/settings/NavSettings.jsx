@@ -23,6 +23,10 @@ const NavSettings = (props) => {
     return (
         <div className={`settingButtons ${openValue ? "menuOpen" : "menuClose"}`}>
 
+            <NavToggle settings={props.settings} updateSetting={props.updateSetting}/>
+
+            <ThemeSwitch settings={props.settings} updateSetting={props.updateSetting}/>
+
             <div className={"navToggle"} >
                 <div className={`icon menuToggle ${openValue ? 'open' : ''}`} onClick={toggleMenu}>
                     <span></span>
@@ -31,9 +35,6 @@ const NavSettings = (props) => {
                 </div>
             </div>
 
-            <ThemeSwitch settings={props.settings} updateSetting={props.updateSetting}/>
-
-            <NavToggle settings={props.settings} updateSetting={props.updateSetting}/>
         </div>
     )
 };
