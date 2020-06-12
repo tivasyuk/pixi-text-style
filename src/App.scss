@@ -12,7 +12,8 @@ body {
 }
 
 .App {
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   padding: 27px 0;
 }
 
@@ -387,4 +388,17 @@ body {
 .refreshBtn {
   cursor: pointer;
   font-size: 28px;
+  animation-duration: .5s;
+  animation-timing-function: linear;
+}
+
+
+/*--------------*/
+@keyframes rotation {
+  0% {
+    transform:rotate(0deg);
+  }
+  100% {
+    transform:rotate(360deg);
+  }
 }

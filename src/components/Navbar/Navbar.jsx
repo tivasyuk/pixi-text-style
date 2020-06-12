@@ -12,7 +12,12 @@ import BackgroundControl from "./controls/BackgroundControl";
 
 const Navbar = (props) => {
 
-    const refreshPage = () => {
+    const refreshPage = (e) => {
+        let elem = e.currentTarget;
+        elem.style.animationName = "rotation";
+        setTimeout( () => {
+            elem.style.animationName = "none";
+        }, 500);
         props.refreshSettings();
     };
 
