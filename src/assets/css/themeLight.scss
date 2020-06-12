@@ -110,4 +110,44 @@ $formControlBorder: #d8d8d8;
   .themeToggle {
     color: #2b2b2b;
   }
+
+
+
+  .checkboxTools {
+    .checkbox-tools {
+      &:checked + label,
+      &:not(:checked) + label {
+        color: #fff;
+
+        &::before {
+          background-color: #e91e63;
+        }
+      }
+
+      &:not(:checked) + label {
+        background-color: #353746;
+      }
+
+      &:checked + label {
+        background-color: transparent;
+      }
+    }
+
+    .checkbox {
+      &:checked + label,
+      &:not(:checked) + label {
+        background-color: #e91e63;
+      }
+      &:not(:checked) + label:before {
+        color: #ecedf3;
+        background-color: #353746;
+      }
+      &:checked + label:before {
+        color: #f8ab37;
+        background-color: #1f2029;
+      }
+    }
+  }
+
+
 }
