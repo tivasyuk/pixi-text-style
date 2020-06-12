@@ -1,0 +1,120 @@
+$mainBgColor: #283440;
+$mainThemeColor: #e91e63;
+$themeColor: #cfd4db;
+$navColor: #272d37;
+
+$formControlBg: #14171d;
+$formControlColor: #fff;
+
+.dark {
+  ::-webkit-scrollbar-button {  background-color: #666; }
+  ::-webkit-scrollbar-track {  background-color: #999;}
+  ::-webkit-scrollbar-track-piece { background-color: #999;}
+  ::-webkit-scrollbar-thumb { height: 50px; background-color: $mainThemeColor; border-radius: 10px;}
+  ::-webkit-scrollbar-corner { background-color: #999;}
+
+  background-color: $mainBgColor;
+  color: $themeColor;
+
+  .settingButtons {
+    background-color: $mainBgColor;
+  }
+
+  .nav {
+    background-color: $navColor;
+    color: $themeColor;
+  }
+
+  @media (max-width: 480px) {
+    .appWrapper {
+      border-top: 2px dotted #999;
+    }
+  }
+
+  .jsonFormatter {
+    background-color: $navColor;
+    color: $themeColor;
+  }
+
+  /*-------------*/
+  .title {
+    color: $themeColor
+  }
+
+  .accordion {
+    border-bottom: 1px solid #3d495a;
+    color: $mainThemeColor;
+  }
+
+  .json-attr {
+    color: #f92672;
+  }
+
+  .json-value {
+    color: #e6db74;
+  }
+
+  .btn-file input[type=file] {
+    background: #fff;
+  }
+
+  /* bootstrap */
+
+  .btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+  }
+
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+  }
+
+  .btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary,
+  .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+  }
+
+  .btn-primary:focus, .btn-primary.focus,
+  .btn-primary.active.focus, .btn-primary.active:focus,
+  .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover,
+  .open > .dropdown-toggle.btn-primary.focus, .open > .dropdown-toggle.btn-primary:focus, .open > .dropdown-toggle.btn-primary:hover {
+    color: $formControlColor;
+    background-color: #204d74;
+    border-color: #122b40;
+    box-shadow: 0 0 0 1px #204d74;
+  }
+
+  .form-control {
+    background-color: $formControlBg;
+    color: $formControlColor;
+    border-color: #3d495a;
+  }
+
+  .form-control:focus {
+    background-color: $formControlBg;
+    color: $formControlColor;
+    border-color: #66afe9;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+  }
+
+  /*------- toggle menu---------*/
+
+
+  .menuToggle, .menuPosition {
+    span {
+      background: #fff;
+    }
+  }
+
+  /* toggle */
+  .themeToggle {
+    color: #cfd4db;
+  }
+
+}

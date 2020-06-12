@@ -1,0 +1,36 @@
+.navRight {
+  .nav {
+    &.menuOpen {
+      right: 0;
+    }
+    &.menuClose {
+      right: -340px;
+    }
+  }
+
+  .appWrapper {
+    &.menuOpen {
+      padding-right: 340px;
+    }
+
+    &.menuClose {
+      padding-right: 0;
+    }
+  }
+  .settingButtons {
+    flex-direction: row;
+    &.menuOpen {
+      right: 0;
+    }
+
+    &.menuClose {
+      right: 0;
+    }
+  }
+
+  .menuClose {
+    .previewTitle {
+      text-align: left;
+    }
+  }
+}
