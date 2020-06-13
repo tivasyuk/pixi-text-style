@@ -151,6 +151,7 @@ $formControlBorder: #d8d8d8;
   .catLover-checkbox {
     &:not(:checked) + label:before {
       background-image: url("../img/cat_black.png");
+      opacity: 0.12;
     }
     &:checked + label:before {
       background-image: url("../img/cat_pink.png");
