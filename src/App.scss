@@ -73,6 +73,7 @@ body {
   }
   .nav {
     position: absolute;
+    top: 0;
   }
   .appWrapper {
     position: fixed;
@@ -81,6 +82,12 @@ body {
     -webkit-overflow-scrolling: touch;
     padding: 0;
     border-top: 2px dotted #999;
+  }
+  .previewTitle {
+    padding-top: 15px;
+  }
+  .settingButtons {
+    display: none !important;
   }
   .settingButtons {
     display: none;

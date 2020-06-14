@@ -13,7 +13,10 @@ class PixiPreviewContainer extends React.Component {
     };
 
     componentWillMount() {
-        this.props.updateSetting("previewWidth", document.getElementsByClassName("appWrapper")[0].offsetWidth - 370);
+        let appWrapperWidth = document.getElementsByClassName("appWrapper")[0].offsetWidth;
+        if (appWrapperWidth > 480){
+            this.props.updateSetting("previewWidth", appWrapperWidth - 370);
+        }
     }
 
     shouldComponentUpdate(nextProps, nextState, nextContext) {
