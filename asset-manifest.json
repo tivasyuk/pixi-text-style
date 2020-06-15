@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pixi-text-style/static/css/main.dd1accf2.chunk.css",
+    "main.css": "/pixi-text-style/static/css/main.74cf1a4a.chunk.css",
     "main.js": "/pixi-text-style/static/js/main.b81bdd92.chunk.js",
     "main.js.map": "/pixi-text-style/static/js/main.b81bdd92.chunk.js.map",
     "runtime-main.js": "/pixi-text-style/static/js/runtime-main.0d2e34d0.js",
@@ -8,15 +8,15 @@
     "static/js/2.53a86518.chunk.js": "/pixi-text-style/static/js/2.53a86518.chunk.js",
     "static/js/2.53a86518.chunk.js.map": "/pixi-text-style/static/js/2.53a86518.chunk.js.map",
     "index.html": "/pixi-text-style/index.html",
-    "precache-manifest.22e6b747fa9630bdf5a51d4a897748a0.js": "/pixi-text-style/precache-manifest.22e6b747fa9630bdf5a51d4a897748a0.js",
+    "precache-manifest.31e432aea067c26bd36de9772808e4d4.js": "/pixi-text-style/precache-manifest.31e432aea067c26bd36de9772808e4d4.js",
     "service-worker.js": "/pixi-text-style/service-worker.js",
-    "static/css/main.dd1accf2.chunk.css.map": "/pixi-text-style/static/css/main.dd1accf2.chunk.css.map",
+    "static/css/main.74cf1a4a.chunk.css.map": "/pixi-text-style/static/css/main.74cf1a4a.chunk.css.map",
     "static/js/2.53a86518.chunk.js.LICENSE.txt": "/pixi-text-style/static/js/2.53a86518.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0d2e34d0.js",
     "static/js/2.53a86518.chunk.js",
-    "static/css/main.dd1accf2.chunk.css",
+    "static/css/main.74cf1a4a.chunk.css",
     "static/js/main.b81bdd92.chunk.js"
   ]
 }
