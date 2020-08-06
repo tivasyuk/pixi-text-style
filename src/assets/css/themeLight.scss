@@ -2,6 +2,7 @@ $mainBgColor: #f8f8f8;
 $mainThemeColor: #e91e63;
 $themeColor: #272d37;
 $navColor: #ececec;
+$textColor: #7d7d7d;
 
 $formControlBg: #fff;
 $formControlColor: #000;
@@ -15,10 +16,11 @@ $formControlBorder: #d8d8d8;
   ::-webkit-scrollbar-corner { background-color: #d4d4d4;}
 
   background-color: $mainBgColor;
+  color: $textColor;
 
   .nav {
     background-color: $navColor;
-    color: $themeColor;
+    color: $textColor;
   }
 
   @media (max-width: 480px) {
@@ -34,12 +36,12 @@ $formControlBorder: #d8d8d8;
 
   /*-------------*/
   .title {
-    color: #333
+    color: $textColor
   }
 
   .accordion {
     border-bottom: 1px solid $formControlBorder;
-    color: $mainThemeColor;
+    color: $textColor;
   }
 
   .json-attr {
@@ -87,13 +89,13 @@ $formControlBorder: #d8d8d8;
 
   .form-control {
     background-color: $formControlBg;
-    color: $formControlColor;
+    color: $textColor;
     border-color: $formControlBorder;
   }
 
   .form-control:focus {
     background-color: $formControlBg;
-    color: $formControlColor;
+    color: $textColor;
     border-color: #66afe9;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
@@ -103,12 +105,12 @@ $formControlBorder: #d8d8d8;
 
   .menuToggle, .menuPosition {
     span {
-      background: #333;
+      background: $textColor;
     }
   }
 
   .themeToggle {
-    color: #2b2b2b;
+    color: $textColor;
   }
 
 
@@ -143,8 +145,8 @@ $formControlBorder: #d8d8d8;
         background-color: #353746;
       }
       &:checked + label:before {
-        color: #f8ab37;
-        background-color: #1f2029;
+        color: #fff; //#f8ab37;
+        background-color: $textColor;
       }
     }
   }
